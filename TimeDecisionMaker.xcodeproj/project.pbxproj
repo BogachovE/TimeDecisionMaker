@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A32270681B00B88B7D /* AppDelegate.swift */; };
-		748F59A62270681B00B88B7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A52270681B00B88B7D /* ViewController.swift */; };
+		748F59A62270681B00B88B7D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A52270681B00B88B7D /* MainVC.swift */; };
 		748F59A92270681B00B88B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F59A72270681B00B88B7D /* Main.storyboard */; };
 		748F59AB2270681D00B88B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F59AA2270681D00B88B7D /* Assets.xcassets */; };
 		748F59AE2270681D00B88B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F59AC2270681D00B88B7D /* LaunchScreen.storyboard */; };
@@ -19,6 +19,26 @@
 		748F59CB22706C6600B88B7D /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59C922706C6600B88B7D /* A.ics */; };
 		748F59CE22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
 		748F59CF22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
+		DDA71C2F22A7D0AC007714C3 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0722A5AC47006E352A /* CalendarEvent.swift */; };
+		DDA71C3022A7D0AC007714C3 /* ICSTimeZoneParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0822A5AC47006E352A /* ICSTimeZoneParser.swift */; };
+		DDA71C3122A7D0AC007714C3 /* ICSEventParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0922A5AC47006E352A /* ICSEventParser.swift */; };
+		DDA71C3222A7D0AC007714C3 /* ICS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0A22A5AC47006E352A /* ICS.swift */; };
+		DDA71C3322A7D0AC007714C3 /* SwiftCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0B22A5AC47006E352A /* SwiftCal.swift */; };
+		DDA71C3422A7D0AC007714C3 /* CalendarTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0C22A5AC47006E352A /* CalendarTools.swift */; };
+		DDA71C3622A8101D007714C3 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA71C3522A8101D007714C3 /* BaseVC.swift */; };
+		DDA71C3822A8107C007714C3 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA71C3722A8107C007714C3 /* ViewControllers.swift */; };
+		DDA71C3B22A81600007714C3 /* ConfigurableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA71C3A22A81600007714C3 /* ConfigurableVC.swift */; };
+		DDA71C3D22A8182F007714C3 /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA71C3C22A8182F007714C3 /* EventsVC.swift */; };
+		DDA71C3F22A81840007714C3 /* SetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA71C3E22A81840007714C3 /* SetupVC.swift */; };
+		DDA71C4122A81AC3007714C3 /* LoadViewsVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA71C4022A81AC2007714C3 /* LoadViewsVCProtocol.swift */; };
+		DDA71C4322A81B2F007714C3 /* NavigationBarAppearanceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA71C4222A81B2F007714C3 /* NavigationBarAppearanceProtocol.swift */; };
+		DDA71C4622A81B72007714C3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA71C4522A81B72007714C3 /* Colors.swift */; };
+		DDF49C0D22A5AC47006E352A /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0722A5AC47006E352A /* CalendarEvent.swift */; };
+		DDF49C0E22A5AC47006E352A /* ICSTimeZoneParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0822A5AC47006E352A /* ICSTimeZoneParser.swift */; };
+		DDF49C0F22A5AC47006E352A /* ICSEventParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0922A5AC47006E352A /* ICSEventParser.swift */; };
+		DDF49C1022A5AC47006E352A /* ICS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0A22A5AC47006E352A /* ICS.swift */; };
+		DDF49C1122A5AC47006E352A /* SwiftCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0B22A5AC47006E352A /* SwiftCal.swift */; };
+		DDF49C1222A5AC47006E352A /* CalendarTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49C0C22A5AC47006E352A /* CalendarTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +54,7 @@
 /* Begin PBXFileReference section */
 		748F59A02270681B00B88B7D /* TimeDecisionMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeDecisionMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F59A32270681B00B88B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		748F59A52270681B00B88B7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		748F59A52270681B00B88B7D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		748F59A82270681B00B88B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		748F59AA2270681D00B88B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748F59AD2270681D00B88B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,6 +65,20 @@
 		748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDTimeDecisionMaker.swift; sourceTree = "<group>"; };
 		748F59C922706C6600B88B7D /* A.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A.ics; sourceTree = "<group>"; };
 		748F59CD22706EB300B88B7D /* B.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B.ics; sourceTree = "<group>"; };
+		DDA71C3522A8101D007714C3 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		DDA71C3722A8107C007714C3 /* ViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		DDA71C3A22A81600007714C3 /* ConfigurableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableVC.swift; sourceTree = "<group>"; };
+		DDA71C3C22A8182F007714C3 /* EventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsVC.swift; sourceTree = "<group>"; };
+		DDA71C3E22A81840007714C3 /* SetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupVC.swift; sourceTree = "<group>"; };
+		DDA71C4022A81AC2007714C3 /* LoadViewsVCProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadViewsVCProtocol.swift; sourceTree = "<group>"; };
+		DDA71C4222A81B2F007714C3 /* NavigationBarAppearanceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarAppearanceProtocol.swift; sourceTree = "<group>"; };
+		DDA71C4522A81B72007714C3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DDF49C0722A5AC47006E352A /* CalendarEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+		DDF49C0822A5AC47006E352A /* ICSTimeZoneParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICSTimeZoneParser.swift; sourceTree = "<group>"; };
+		DDF49C0922A5AC47006E352A /* ICSEventParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICSEventParser.swift; sourceTree = "<group>"; };
+		DDF49C0A22A5AC47006E352A /* ICS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICS.swift; sourceTree = "<group>"; };
+		DDF49C0B22A5AC47006E352A /* SwiftCal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCal.swift; sourceTree = "<group>"; };
+		DDF49C0C22A5AC47006E352A /* CalendarTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +120,9 @@
 		748F59A22270681B00B88B7D /* TimeDecisionMaker */ = {
 			isa = PBXGroup;
 			children = (
+				DDA71C4422A81B65007714C3 /* Helpers */,
+				DDA71C3922A815D0007714C3 /* Protocols */,
+				DDF49C0622A5AC47006E352A /* SwiftCal */,
 				748F59CC22706E9400B88B7D /* Appointments */,
 				748F59A32270681B00B88B7D /* AppDelegate.swift */,
 				748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */,
@@ -117,7 +154,11 @@
 		748F59C42270685A00B88B7D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				748F59A52270681B00B88B7D /* ViewController.swift */,
+				DDA71C3722A8107C007714C3 /* ViewControllers.swift */,
+				DDA71C3522A8101D007714C3 /* BaseVC.swift */,
+				748F59A52270681B00B88B7D /* MainVC.swift */,
+				DDA71C3C22A8182F007714C3 /* EventsVC.swift */,
+				DDA71C3E22A81840007714C3 /* SetupVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -138,6 +179,37 @@
 				748F59CD22706EB300B88B7D /* B.ics */,
 			);
 			path = Appointments;
+			sourceTree = "<group>";
+		};
+		DDA71C3922A815D0007714C3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DDA71C4222A81B2F007714C3 /* NavigationBarAppearanceProtocol.swift */,
+				DDA71C4022A81AC2007714C3 /* LoadViewsVCProtocol.swift */,
+				DDA71C3A22A81600007714C3 /* ConfigurableVC.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DDA71C4422A81B65007714C3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DDA71C4522A81B72007714C3 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDF49C0622A5AC47006E352A /* SwiftCal */ = {
+			isa = PBXGroup;
+			children = (
+				DDF49C0722A5AC47006E352A /* CalendarEvent.swift */,
+				DDF49C0822A5AC47006E352A /* ICSTimeZoneParser.swift */,
+				DDF49C0922A5AC47006E352A /* ICSEventParser.swift */,
+				DDF49C0A22A5AC47006E352A /* ICS.swift */,
+				DDF49C0B22A5AC47006E352A /* SwiftCal.swift */,
+				DDF49C0C22A5AC47006E352A /* CalendarTools.swift */,
+			);
+			path = SwiftCal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,9 +316,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA71C3D22A8182F007714C3 /* EventsVC.swift in Sources */,
 				748F59C72270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
-				748F59A62270681B00B88B7D /* ViewController.swift in Sources */,
+				DDF49C0F22A5AC47006E352A /* ICSEventParser.swift in Sources */,
+				DDA71C4622A81B72007714C3 /* Colors.swift in Sources */,
+				748F59A62270681B00B88B7D /* MainVC.swift in Sources */,
+				DDF49C0E22A5AC47006E352A /* ICSTimeZoneParser.swift in Sources */,
+				DDF49C1022A5AC47006E352A /* ICS.swift in Sources */,
+				DDF49C0D22A5AC47006E352A /* CalendarEvent.swift in Sources */,
+				DDA71C4322A81B2F007714C3 /* NavigationBarAppearanceProtocol.swift in Sources */,
+				DDF49C1222A5AC47006E352A /* CalendarTools.swift in Sources */,
+				DDA71C3F22A81840007714C3 /* SetupVC.swift in Sources */,
+				DDF49C1122A5AC47006E352A /* SwiftCal.swift in Sources */,
+				DDA71C4122A81AC3007714C3 /* LoadViewsVCProtocol.swift in Sources */,
+				DDA71C3822A8107C007714C3 /* ViewControllers.swift in Sources */,
+				DDA71C3B22A81600007714C3 /* ConfigurableVC.swift in Sources */,
 				748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */,
+				DDA71C3622A8101D007714C3 /* BaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +340,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA71C3322A7D0AC007714C3 /* SwiftCal.swift in Sources */,
+				DDA71C3422A7D0AC007714C3 /* CalendarTools.swift in Sources */,
 				748F59B92270681D00B88B7D /* TimeDecisionMakerTests.swift in Sources */,
+				DDA71C3222A7D0AC007714C3 /* ICS.swift in Sources */,
+				DDA71C3022A7D0AC007714C3 /* ICSTimeZoneParser.swift in Sources */,
+				DDA71C3122A7D0AC007714C3 /* ICSEventParser.swift in Sources */,
+				DDA71C2F22A7D0AC007714C3 /* CalendarEvent.swift in Sources */,
 				748F59C82270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,15 +501,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQ8D6QF6CN;
 				INFOPLIST_FILE = TimeDecisionMaker/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdd.test.TimeDecisionMakerr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -426,15 +522,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQ8D6QF6CN;
 				INFOPLIST_FILE = TimeDecisionMaker/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdd.test.TimeDecisionMakerr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -446,6 +546,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TimeDecisionMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,7 +554,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMakerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDecisionMaker.app/TimeDecisionMaker";
 			};
@@ -466,6 +567,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TimeDecisionMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +575,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMakerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDecisionMaker.app/TimeDecisionMaker";
 			};
